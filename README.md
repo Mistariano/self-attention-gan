@@ -1,4 +1,19 @@
-# Self-Attention GAN
+# Self-Attention GAN on CelebA
+
+Forked from the [original implementation](https://github.com/brain-research/self-attention-gan)
+
+Adapted for training models on CelebA or other datasets unconditionally(means, use an unconditional GAN instead)
+
+To make a .tfrecords file, run `convert2record.py`:
+
+```bash
+python convert2records.py
+```
+
+
+-------------------
+Original README:
+
 Tensorflow implementation for reproducing main results in the paper [Self-Attention Generative Adversarial Networks](https://arxiv.org/abs/1805.08318) by Han Zhang, Ian Goodfellow, Dimitris Metaxas, Augustus Odena.
 
 <img src="imgs/img1.png"/>
